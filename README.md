@@ -1,29 +1,29 @@
-# Outlook Time Tracker
+# Tymer
 
 ## About
 Outlook add-in to track time in Outlook calendar.
 
 ## Install
-1. Download 6 files
-2. Open Outlook Desktop Application
-4. Open VBE Editor (Alt+F11)
-5. Import files:
-
-<img width="184" alt="image" src="https://github.com/user-attachments/assets/69facbd7-3459-455c-aa5d-6ae992647c89">
-
-7. Save the project
-8. Right-click the ribbon in Outlook:
+1. Close Outlook
+2. Download Tymer.zip
+3. Unzip
+4. Copy VbaProject.OTM
+5. Go to folder %APPDATA%\Microsoft\Outlook
+6. Make a backup of VbaProject.OTM
+7. Paste new VbaProject.OTM 
+8. Open Outlook (classic)
+9. Right-click the ribbon in Outlook:
   
 ![image](https://github.com/user-attachments/assets/d978b241-b30a-4d36-8bea-a475e04c593b)
    
-10. Click Customize Quick Access Toolbar
-11. Select _Macros_ from the dropdown
-12. Select _TimeTracker.Start_:
+10. Click 'Customize Quick Access Toolbar...'
+11. Select 'Macros' from the dropdown
+12. Select 'Tymer.StartTracking':
 
-![image](https://github.com/user-attachments/assets/cfb0a42c-2c16-416c-91e1-ee93b6923ec0)
-    
-14. Click Add
-15. Click Modify to change Display name and icon:
+<img width="598" height="301" alt="image" src="https://github.com/user-attachments/assets/5ab10278-4bc2-481a-b734-e2e7406632d5" />
+
+14. Click 'Add'
+15. Click 'Modify' to change 'Display name' and icon:
 
  ![image](https://github.com/user-attachments/assets/65e834eb-f891-45c1-b127-31b1069fd669)
     
