@@ -1,5 +1,7 @@
 # Tymer
 
+<img width="720" height="720" alt="adding new appointment" src="https://github.com/user-attachments/assets/a865cd3b-d8e1-4e19-b573-be9f9a4c6e0a" />
+
 ## About
 Outlook add-in to track time in Outlook calendar.
 
@@ -12,24 +14,16 @@ Outlook add-in to track time in Outlook calendar.
 6. Make a backup of VbaProject.OTM
 7. Paste new VbaProject.OTM 
 8. Open Outlook (classic)
-9. Right-click the ribbon in Outlook:
-  
-![image](https://github.com/user-attachments/assets/d978b241-b30a-4d36-8bea-a475e04c593b)
-   
+9. Right-click the ribbon in Outlook
 10. Click 'Customize Quick Access Toolbar...'
 11. Select 'Macros' from the dropdown
 12. Select 'Tymer.StartTracking':
-
-<img width="598" height="301" alt="image" src="https://github.com/user-attachments/assets/5ab10278-4bc2-481a-b734-e2e7406632d5" />
+<img height="100" alt="image" src="https://github.com/user-attachments/assets/5ab10278-4bc2-481a-b734-e2e7406632d5" />
 
 14. Click 'Add'
-15. Click 'Modify' to change 'Display name' and icon:
-
- ![image](https://github.com/user-attachments/assets/65e834eb-f891-45c1-b127-31b1069fd669)
-    
+15. Click 'Modify' to change 'Display name' and icon
 18. Click OK
 19. You should see new button in QAT:
-
 ![image](https://github.com/user-attachments/assets/eb55bb25-838e-4d23-a666-6f5b965412f2)
     
     (buttons in QAT have shortcut assigned - Alt+3 in my example)
