@@ -237,6 +237,25 @@ Do **not** overwrite your existing file unless you have created a backup.
 
 </details>
 
+<details>
+<summary><b>Tymer doesn't ask me to start tracking when Outlook opens</b></summary>
+
+<br>
+
+If Tymer works when started manually, but doesn't show the **"Do you want to start tracking?"** message when Outlook opens:
+
+1. Press <kbd>Alt</kbd> + <kbd>F11</kbd> to open the Visual Basic Editor.
+2. Close the Visual Basic Editor.
+3. Close Outlook.
+4. Open Outlook again.
+
+This can happen when Outlook doesn't detect VBA code after `VbaProject.OTM` has been copied to a computer that didn't previously use Outlook macros.
+
+> [!NOTE]
+> Simply opening the Visual Basic Editor once should make Outlook detect the VBA project on subsequent startups.
+
+</details>
+
 ---
 
 ## 💬 Contact
