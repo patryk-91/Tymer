@@ -230,8 +230,7 @@ Then restart Outlook.
 
 <br>
 
-> [!CAUTION]
-> Installing Tymer by replacing `VbaProject.OTM` will replace your existing Outlook VBA project.
+**⚠️ Caution:** Installing Tymer by replacing `VbaProject.OTM` will replace your existing Outlook VBA project.
 
 Do **not** overwrite your existing file unless you have created a backup.
 
@@ -251,8 +250,7 @@ If Tymer works when started manually, but doesn't show the **"Do you want to sta
 
 This can happen when Outlook doesn't detect VBA code after `VbaProject.OTM` has been copied to a computer that didn't previously use Outlook macros.
 
-> [!NOTE]
-> Simply opening the Visual Basic Editor once should make Outlook detect the VBA project on subsequent startups.
+**Note:** Simply opening the Visual Basic Editor once should make Outlook detect the VBA project on subsequent startups.
 
 </details>
 
