@@ -115,9 +115,14 @@ To get a license key:
 2. Go to the **Contact** page.
 3. Click my email address to create a new email.
 4. Send me a request for a license key.
-5. Once you receive your license key, enter it in Tymer to activate the tool.
+5. Once you receive your license key, open the **Settings** tab.
+6. Scroll down to the **License** section.
+7. Paste your license key into the **Key** field.
 
-For now, license keys are provided manually.
+<img width="300" alt="image" src="https://github.com/user-attachments/assets/6c4b6fe5-cded-4d78-9f9f-e4c6babcc82d" />
+
+8. Click **Validate**.
+9. If the license key is valid, Tymer will be enabled and ready to use. 🎉
 
 ### ✅ Installation checklist
 
