@@ -67,12 +67,17 @@ It creates consecutive calendar appointments, automatically aligning each new ap
 
 7. Paste the new `VbaProject.OTM` into the folder.
 
-8. Open **Outlook (classic)**.
+### 2️⃣ Enable Outlook VBA
 
-> [!NOTE]
-> When Outlook starts, Tymer will ask whether you want to start tracking immediately.
+1. Open **Outlook (classic)**.
+2. Press <kbd>Alt</kbd> + <kbd>F11</kbd> to open the Visual Basic Editor.
+3. Close the Visual Basic Editor.
+4. Close Outlook.
+5. Open Outlook again.
 
-### 2️⃣ Add Tymer to the Quick Access Toolbar
+> Opening the Visual Basic Editor once makes sure Outlook detects the VBA project and loads it automatically on subsequent startups.
+
+### 3️⃣ Add Tymer to the Quick Access Toolbar
 
 1. Right-click the Outlook ribbon.
 2. Select **Customize Quick Access Toolbar...**
@@ -97,6 +102,22 @@ You should now see the Tymer button in the Quick Access Toolbar:
 > Buttons in the Quick Access Toolbar automatically get a keyboard shortcut.
 >
 > For example, if Tymer is the third button, press <kbd>Alt</kbd> + <kbd>3</kbd>.
+
+### 4️⃣ Get a license key
+
+Tymer requires a license key to unlock its features.
+
+Without a license key, you can open Tymer, but its tracking features will be disabled.
+
+To get a license key:
+
+1. Open Tymer using the button you added to the Quick Access Toolbar.
+2. Go to the **Contact** page.
+3. Click my email address to create a new email.
+4. Send me a request for a license key.
+5. Once you receive your license key, enter it in Tymer to activate the tool.
+
+For now, license keys are provided manually.
 
 ### ✅ Installation checklist
 
