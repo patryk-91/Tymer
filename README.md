@@ -51,7 +51,7 @@ It creates consecutive calendar appointments, automatically aligning each new ap
 
 1. Close Outlook.
 
-2. Download `Tymer.zip`.
+2. Download `Tymer-v1.0.0.zip`.
 
 3. Unzip the file.
 
@@ -286,7 +286,7 @@ This can happen when Outlook doesn't detect VBA code after `VbaProject.OTM` has 
 
 Found a bug or have a suggestion?
 
-You can report it through GitHub Issues or contact me directly.
+You can report it through [GitHub Issues](https://github.com/patryk-91/Tymer/issues/new/choose) or contact me directly.
 
 ---
 
