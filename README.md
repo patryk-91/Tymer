@@ -51,7 +51,7 @@ It creates consecutive calendar appointments, automatically aligning each new ap
 
 1. Close Outlook.
 
-2. Download `Tymer-v1.0.0.zip`.
+2. Download `Tymer-v1.0.x.zip`.
 
 3. Unzip the file.
 
