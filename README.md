@@ -27,14 +27,11 @@ It creates consecutive calendar appointments, automatically aligning each new ap
 
 ## 💻 Requirements
 
-> [!IMPORTANT]
-> Tymer requires **Outlook (classic)** for Windows because it runs as an Outlook VBA project.
+Tymer requires **Outlook (classic)** for Windows because it runs as an Outlook VBA project.
 
 ---
 
 ## 📦 Install
-
-### 1️⃣ Install Tymer
 
 1. Close Outlook.
 
@@ -58,17 +55,11 @@ It creates consecutive calendar appointments, automatically aligning each new ap
 > 
 7. Paste the new `VbaProject.OTM` into the folder.
 
-### 2️⃣ Enable Outlook VBA
+---
 
-1. Open **Outlook (classic)**.
-2. Press <kbd>Alt</kbd> + <kbd>F11</kbd> to open the Visual Basic Editor.
-3. Close the Visual Basic Editor.
-4. Close Outlook.
-5. Open Outlook again.
+## 🚀 Quick Guide
 
-> Opening the Visual Basic Editor once makes sure Outlook detects the VBA project and loads it automatically on subsequent startups.
-
-### 3️⃣ Add Tymer to the Quick Access Toolbar
+### 1. Add Tymer to the Quick Access Toolbar
 
 1. Right-click the Outlook ribbon.
 2. Select **Customize Quick Access Toolbar...**
@@ -93,20 +84,8 @@ You should now see the Tymer button in the Quick Access Toolbar:
 > Buttons in the Quick Access Toolbar automatically get a keyboard shortcut.
 >
 > For example, if Tymer is the third button, press <kbd>Alt</kbd> + <kbd>3</kbd>.
-
-### ✅ Installation checklist
-
-* [ ] `VbaProject.OTM` backed up
-* [ ] Tymer installed
-* [ ] Outlook (classic) opened successfully
-* [ ] Tymer added to the Quick Access Toolbar
-* [ ] Tymer window opens
-
----
-
-## 🚀 Quick Guide
-
-### 1. Start tracking
+>
+### 2. Start tracking
 
 Click the **Tymer** button in the Quick Access Toolbar.
 
@@ -123,7 +102,7 @@ The Tymer window will open:
 > [!NOTE]
 > Tymer automatically shows the previous appointment from your calendar.
 
-### 2. Enter what you're working on
+### 3. Enter what you're working on
 
 Update the topic and click **OK**:
 
@@ -131,7 +110,7 @@ Update the topic and click **OK**:
   <img height="200" alt="Adding a new appointment" src="https://github.com/user-attachments/assets/ed0c0355-bdb4-472d-af1c-dd829b9f8766" />
 </p>
 
-### 3. That's it 🎉
+### 4. That's it 🎉
 
 Tymer:
 
