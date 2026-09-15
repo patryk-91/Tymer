@@ -57,7 +57,7 @@ It creates consecutive calendar appointments, automatically aligning each new ap
 
 4. Copy `VbaProject.OTM`.
 
-5. Go to:
+5. Open **File Explorer** (<kbd>Windows</kbd> + <kbd>E</kbd>), paste the following path into the address bar at the top, and press <kbd>Enter</kbd>:
 
    ```text
    %APPDATA%\Microsoft\Outlook
@@ -102,27 +102,6 @@ You should now see the Tymer button in the Quick Access Toolbar:
 > Buttons in the Quick Access Toolbar automatically get a keyboard shortcut.
 >
 > For example, if Tymer is the third button, press <kbd>Alt</kbd> + <kbd>3</kbd>.
-
-### 4️⃣ Get a license key
-
-Tymer requires a license key to unlock its features.
-
-Without a license key, you can open Tymer, but its tracking features will be disabled.
-
-To get a license key:
-
-1. Open Tymer using the button you added to the Quick Access Toolbar.
-2. Go to the **Contact** page.
-3. Click my email address to create a new email.
-4. Send me a request for a license key.
-5. Once you receive your license key, open the **Settings** tab.
-6. Scroll down to the **License** section.
-7. Paste your license key into the **Key** field.
-
-<img width="300" alt="image" src="https://github.com/user-attachments/assets/6c4b6fe5-cded-4d78-9f9f-e4c6babcc82d" />
-
-8. Click **Validate**.
-9. If the license key is valid, Tymer will be enabled and ready to use. 🎉
 
 ### ✅ Installation checklist
 
@@ -198,7 +177,7 @@ Alt + 3  →  Project XYZ  →  OK
 
 1. Close Outlook.
 
-2. Go to:
+2. Open **File Explorer** (<kbd>Windows</kbd> + <kbd>E</kbd>), paste the following path into the address bar at the top, and press <kbd>Enter</kbd>:
 
    ```text
    %APPDATA%\Microsoft\Outlook
