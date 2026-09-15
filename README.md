@@ -27,25 +27,12 @@ It creates consecutive calendar appointments, automatically aligning each new ap
 
 ## 💻 Requirements
 
-| Requirement                | Supported |
-| -------------------------- | :-------: |
-| 🪟 Windows                 |     ✅     |
-| 📅 Outlook (classic)       |     ✅     |
-| 🆕 New Outlook for Windows |     ❌     |
-| 🌐 Outlook on the web      |     ❌     |
-| 📱 Outlook Mobile          |     ❌     |
-
 > [!IMPORTANT]
 > Tymer requires **Outlook (classic)** for Windows because it runs as an Outlook VBA project.
 
 ---
 
 ## 📦 Install
-
-> [!WARNING]
-> `VbaProject.OTM` contains your Outlook VBA project. Replacing it will overwrite any Outlook VBA macros you already have.
->
-> **Make sure to create a backup first.**
 
 ### 1️⃣ Install Tymer
 
@@ -64,7 +51,11 @@ It creates consecutive calendar appointments, automatically aligning each new ap
    ```
 
 6. Make a backup of your existing `VbaProject.OTM`.
-
+> [!WARNING]
+> `VbaProject.OTM` contains your Outlook VBA project. Replacing it will overwrite any Outlook VBA macros you already have.
+>
+> **Make sure to create a backup first.**
+> 
 7. Paste the new `VbaProject.OTM` into the folder.
 
 ### 2️⃣ Enable Outlook VBA
