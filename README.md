@@ -12,170 +12,62 @@
 
 ## 📖 About
 
-**Tymer** is a simple Outlook add-in for tracking your time directly in your calendar.
+Tymer turns your Outlook Calendar into a time tracker.
 
-It creates consecutive calendar appointments, automatically aligning each new appointment with the previous one.
+Record what you're doing as you go, and Tymer automatically keeps your appointments aligned and gap-free.
 
 <p align="left">
   <img height="350" alt="Adding a new appointment with Tymer" src="https://github.com/user-attachments/assets/a865cd3b-d8e1-4e19-b573-be9f9a4c6e0a" />
 </p>
 
-> [!TIP]
-> Your Outlook Calendar becomes a visual history of what you worked on and how much time you spent on it.
-
----
-
-## 💻 Requirements
-
-Tymer requires **Outlook (classic)** for Windows because it runs as an Outlook VBA project.
+> **Requires Outlook (classic) for Windows.**
 
 ---
 
 ## 📦 Install
 
-1. Close Outlook.
+1. Close Outlook and download the latest [**Tymer.zip**](https://github.com/patryk-91/Tymer/releases/latest/download/Tymer.zip).
 
-2. Download `Tymer-v1.0.x.zip`.
+2. Unzip it and copy `VbaProject.OTM`.
 
-3. Unzip the file.
+3. Open **File Explorer** (<kbd>Windows</kbd> + <kbd>E</kbd>) and paste this path into the address bar:
 
-4. Copy `VbaProject.OTM`.
+   `%APPDATA%\Microsoft\Outlook`
 
-5. Open **File Explorer** (<kbd>Windows</kbd> + <kbd>E</kbd>), paste the following path into the address bar at the top, and press <kbd>Enter</kbd>:
+   <img height="100" alt="Opening Outlook VBA folder" src="https://github.com/user-attachments/assets/d07f34de-7a90-46ff-a1c9-23f18be87a44" />
 
-   ```text
-   %APPDATA%\Microsoft\Outlook
-   ```
+4. **Back up** your existing `VbaProject.OTM`, then replace it with the new one. ⚠️
 
-6. Make a backup of your existing `VbaProject.OTM`.
-> [!WARNING]
-> `VbaProject.OTM` contains your Outlook VBA project. Replacing it will overwrite any Outlook VBA macros you already have.
->
-> **Make sure to create a backup first.**
-> 
-7. Paste the new `VbaProject.OTM` into the folder.
+5. Open **Outlook (classic)**.
+
+6. **(Optional)** Add Tymer to the Quick Access Toolbar for easier access. See [Troubleshooting](#%EF%B8%8F-troubleshooting).
 
 ---
 
-## 🚀 Quick Guide
+## ⏱️ Using Tymer
 
-### 1. Add Tymer to the Quick Access Toolbar
-
-1. Right-click the Outlook ribbon.
-2. Select **Customize Quick Access Toolbar...**
-3. Select **Macros** from the dropdown.
-4. Select:
-
-   ```text
-   Tymer.StartTracking
-   ```
-
-5. Click **Add**.
-6. Optionally, click **Modify** to change the display name and icon.
-7. Click **OK**.
-
-You should now see the Tymer button in the Quick Access Toolbar:
+Open Tymer from the Quick Access Toolbar or use its keyboard shortcut (e.g. <kbd>Alt</kbd> + <kbd>3</kbd>).
 
 <p align="left">
-  <img height="200" alt="Tymer button in the Quick Access Toolbar" src="https://github.com/user-attachments/assets/eb55bb25-838e-4d23-a666-6f5b965412f2" />
+  <img height="150" alt="Tymer window" src="https://github.com/user-attachments/assets/05289c59-94d6-4f53-b088-097391c3db84" />
 </p>
 
-> [!TIP]
-> Buttons in the Quick Access Toolbar automatically get a keyboard shortcut.
->
-> For example, if Tymer is the third button, press <kbd>Alt</kbd> + <kbd>3</kbd>.
->
-### 2. Start tracking
+Enter what you're working on and click **OK**.
 
-Click the **Tymer** button in the Quick Access Toolbar.
-
-Or use its keyboard shortcut, for example:
-
-<kbd>Alt</kbd> + <kbd>3</kbd>
-
-The Tymer window will open:
-
-<p align="left">
-  <img height="200" alt="Tymer window" src="https://github.com/user-attachments/assets/05289c59-94d6-4f53-b088-097391c3db84" />
-</p>
-
-> [!NOTE]
-> Tymer automatically shows the previous appointment from your calendar.
-
-### 3. Enter what you're working on
-
-Update the topic and click **OK**:
-
-<p align="left">
-  <img height="200" alt="Adding a new appointment" src="https://github.com/user-attachments/assets/ed0c0355-bdb4-472d-af1c-dd829b9f8766" />
-</p>
-
-### 4. That's it 🎉
-
-Tymer:
-
-* adds a new appointment,
-* aligns the previous appointment with it,
-* keeps your calendar timeline continuous.
+Tymer adds a new appointment and automatically aligns the previous one:
 
 <p align="left">
   <img height="200" alt="Aligned appointments in Outlook Calendar" src="https://github.com/user-attachments/assets/2030d6e2-1d10-441e-9aa9-2dc0170306d2" />
 </p>
 
-> [!TIP]
-> Repeat this whenever you switch activities and your calendar gradually becomes your timesheet.
-
----
-
-## ⌨️ Quick Workflow
-
-Once everything is configured, tracking can be as simple as:
-
-```text
-Alt + [number]  →  Enter topic  →  OK
-```
-
-For example:
-
-```text
-Alt + 3  →  Project XYZ  →  OK
-```
-
----
-
-## 🗑️ Uninstall
-
-1. Close Outlook.
-
-2. Open **File Explorer** (<kbd>Windows</kbd> + <kbd>E</kbd>), paste the following path into the address bar at the top, and press <kbd>Enter</kbd>:
-
-   ```text
-   %APPDATA%\Microsoft\Outlook
-   ```
-
-3. Delete the Tymer `VbaProject.OTM`.
-
-4. Restore your original `VbaProject.OTM` from the backup.
-
-5. Open Outlook.
-
-You can also remove the Tymer button from the Quick Access Toolbar.
-
-<details>
-<summary><b>What if I didn't have a VbaProject.OTM before installing Tymer?</b></summary>
-
-<br>
-
-Simply remove the Tymer `VbaProject.OTM` file.
-
-</details>
+Repeat this whenever you switch activities. **Your calendar becomes your timesheet.**
 
 ---
 
 ## 🛠️ Troubleshooting
 
 <details>
-<summary><b>Tymer doesn't appear in Outlook</b></summary>
+<summary><b>Tymer doesn't work in my version of Outlook</b></summary>
 
 <br>
 
@@ -192,9 +84,7 @@ Tymer does not work with the new Outlook for Windows.
 
 Check that `VbaProject.OTM` was copied to:
 
-```text
-%APPDATA%\Microsoft\Outlook
-```
+`%APPDATA%\Microsoft\Outlook`
 
 Then restart Outlook.
 
@@ -205,7 +95,7 @@ Then restart Outlook.
 
 <br>
 
-**⚠️ Caution:** Installing Tymer by replacing `VbaProject.OTM` will replace your existing Outlook VBA project.
+⚠️ Installing Tymer by replacing `VbaProject.OTM` will replace your existing Outlook VBA project.
 
 Do **not** overwrite your existing file unless you have created a backup.
 
@@ -226,6 +116,48 @@ If Tymer works when started manually, but doesn't show the **"Do you want to sta
 This can happen when Outlook doesn't detect VBA code after `VbaProject.OTM` has been copied to a computer that didn't previously use Outlook macros.
 
 **Note:** Simply opening the Visual Basic Editor once should make Outlook detect the VBA project on subsequent startups.
+
+</details>
+
+<details>
+<summary><b>Tymer is missing on the Quick Access Toolbar</b></summary>
+
+<br>
+
+1. Right-click the Outlook ribbon.
+2. Select **Customize Quick Access Toolbar...**
+3. Select **Macros** from the dropdown.
+4. Select `Tymer.StartTracking`.
+5. Click **Add**.
+6. Optionally, click **Modify** to change the display name and icon.
+7. Click **OK**.
+
+You should now see the Tymer button in the Quick Access Toolbar:
+
+<p align="left">
+  <img height="60" alt="Tymer button in the Quick Access Toolbar" src="https://github.com/user-attachments/assets/eb55bb25-838e-4d23-a666-6f5b965412f2" />
+</p>
+
+Buttons in the Quick Access Toolbar automatically get a keyboard shortcut.
+
+For example, if Tymer is the third button, press <kbd>Alt</kbd> + <kbd>3</kbd>.
+
+</details>
+
+<details>
+<summary><b>How do I uninstall Tymer?</b></summary>
+
+<br>
+
+1. Close Outlook.
+2. Open **File Explorer** and go to `%APPDATA%\Microsoft\Outlook`.
+3. Delete the Tymer `VbaProject.OTM`.
+4. Restore your original `VbaProject.OTM` from the backup.
+5. Open Outlook.
+
+If you didn't have a `VbaProject.OTM` before installing Tymer, simply delete the Tymer file.
+
+You can also remove the Tymer button from the Quick Access Toolbar.
 
 </details>
 
