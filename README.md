@@ -161,6 +161,29 @@ You can also remove the Tymer button from the Quick Access Toolbar.
 
 </details>
 
+<details>
+<summary><b>How to change Tymer's icon on Quick Access Toolbar?</b></summary>
+
+<br>
+
+Currently, it's a manual step:
+
+1. Right-click QAT and click **Customize Quick Access Toolbar...**
+
+   <img height="100" alt="image" src="https://github.com/user-attachments/assets/01166008-20db-41e5-9dd6-9659ba45d221" />
+   
+2. Select the macro Tymer.StartTracking and click **Modify**:
+   
+   <img  height="200" alt="Screenshot 2026-09-17 134113" src="https://github.com/user-attachments/assets/214f4c35-ee03-4889-9160-fca59d721ab7" />
+   
+3. Pick an icon and click OK
+   
+   <img height="200" alt="Screenshot 2026-09-17 134302" src="https://github.com/user-attachments/assets/bdbd1289-c691-4e40-95ff-3c9b2b8c9ac1" />
+
+4. Click OK
+  
+</details>
+
 ---
 
 ## 💬 Contact
