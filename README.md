@@ -40,7 +40,7 @@ Record what you're doing as you go, and Tymer automatically keeps your appointme
 
 5. Open **Outlook (classic)**.
 
-6. **(Optional)** Add Tymer to the Quick Access Toolbar for easier access. See [Troubleshooting](#%EF%B8%8F-troubleshooting).
+6. **(Optional)** Add Tymer to the Quick Access Toolbar for easier access. See [FAQ](#%EF%B8%8F-faq).
 
 ---
 
@@ -64,7 +64,7 @@ Repeat this whenever you switch activities. **Your calendar becomes your timeshe
 
 ---
 
-## 🛠️ Troubleshooting
+## 🛠️ FAQ
 
 <details>
 <summary><b>Tymer doesn't work in my version of Outlook</b></summary>
@@ -182,6 +182,17 @@ Currently, it's a manual step:
 
 4. Click OK
   
+</details>
+
+<details>
+<summary><b>How to keep Tymer on top?</b></summary>
+
+<br>
+
+Double-click the **Appointments** tab to switch to compact view and keep Tymer on top of Outlook.
+
+<img height="200" alt="compact view docked" src="https://github.com/user-attachments/assets/5518860a-21bc-4358-8f4f-b20f0def3ed4" />
+
 </details>
 
 ---
