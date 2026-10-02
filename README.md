@@ -26,21 +26,23 @@ Record what you're doing as you go, and Tymer automatically keeps your appointme
 
 ## 📦 Install
 
-1. Close Outlook and download the latest [**Tymer.zip**](https://github.com/patryk-91/Tymer/releases/latest/download/Tymer.zip).
+1. Open Outlook and press <kbd>Alt</kbd> + <kbd>F11</kbd>.
+   
+2. Close Outlook and download the latest [**Tymer.zip**](https://github.com/patryk-91/Tymer/releases/latest/download/Tymer.zip).
 
-2. Unzip it and copy `VbaProject.OTM`.
+3. Unzip it and copy `VbaProject.OTM`.
 
-3. Open **File Explorer** (<kbd>Windows</kbd> + <kbd>E</kbd>) and paste this path into the address bar:
+4. Open **File Explorer** (<kbd>Windows</kbd> + <kbd>E</kbd>) and paste this path into the address bar:
 
    `%APPDATA%\Microsoft\Outlook`
 
    <img height="100" alt="Opening Outlook VBA folder" src="https://github.com/user-attachments/assets/d07f34de-7a90-46ff-a1c9-23f18be87a44" />
 
-4. **Back up** your existing `VbaProject.OTM`, then replace it with the new one. ⚠️
+5. **Back up** your existing `VbaProject.OTM`, then replace it with the new one. ⚠️
 
-5. Open **Outlook (classic)**.
+6. Open **Outlook (classic)**.
 
-6. **(Optional)** Add Tymer to the Quick Access Toolbar for easier access. See [FAQ](#%EF%B8%8F-faq).
+7. **(Optional)** Add Tymer to the Quick Access Toolbar for easier access. See [FAQ](#%EF%B8%8F-faq).
 
 ---
 
